@@ -5,11 +5,9 @@
 X*
 mnist_data
 ppts
-.ipynb_checkpoints
+
 client_secret.json
 __pycache__/
-.py*
-tmp
-template.pdf
+
 data
 venv
