@@ -39,3 +39,12 @@ print(a)
 x = a.ge(0.5)
 print(x)
 print(a[x].shape)
+
+
+# concat
+a = torch.LongTensor([1, 2, 3])
+b = torch.LongTensor([3, 4, 5])
+torch.cat([a, b], dim=-1)
+
+a = torch.rand(1, 2, 3)
+torch.cat(3*[a]).shape

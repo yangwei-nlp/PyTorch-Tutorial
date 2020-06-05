@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Description :   实现Attention机制
+Description :   实现Attention机制，注意，这是个轮子，不建议直接使用，建议学习
      Author :   Yang
        Date :   2020/3/21
 """
