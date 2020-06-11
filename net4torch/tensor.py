@@ -48,3 +48,8 @@ torch.cat([a, b], dim=-1)
 
 a = torch.rand(1, 2, 3)
 torch.cat(3*[a]).shape
+
+
+a = torch.rand(14, 1)
+_, b = torch.topk(a, 3, dim=0, largest=True)
+print(23333)
