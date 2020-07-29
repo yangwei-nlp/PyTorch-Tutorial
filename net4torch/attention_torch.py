@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Description :   PyTorch中如何使用Attention
+Description :   PyTorch中一维向量和N维向量做attention
      Author :   Yang
        Date :   2020/6/5
 """
@@ -59,8 +59,6 @@ class Attention(nn.Module):
             query = query.reshape(batch_size * output_len, dimensions)
             query = self.linear_in(query)
             query = query.reshape(batch_size, output_len, dimensions)
-
-        # TODO: Include mask on PADDING_INDEX?
 
         # (batch_size, output_len, dimensions) * (batch_size, query_len, dimensions) ->
         # (batch_size, output_len, query_len)
