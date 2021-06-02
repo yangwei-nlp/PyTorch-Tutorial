@@ -18,4 +18,4 @@ tokenizers==0.7.0
 torch @ file:///home/ai/yangwei/myResources/torch-1.3.1%2Bcu100-cp36-cp36m-linux_x86_64.whl
 tqdm==4.46.0
 transformers==2.10.0
-urllib3==1.25.9
+urllib3==1.26.5
